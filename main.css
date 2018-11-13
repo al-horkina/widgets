@@ -1,0 +1,129 @@
+.container {
+    background-color: #ecf0f5;
+    display: flex;
+    padding: 1em;
+    margin-bottom: 10px;
+}
+
+.container__item {
+    flex-basis: 25%;
+    position: relative;
+}
+
+.info-box {
+    display: inline-flex;
+    width: 80%;
+    background-color: white;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    font-family: 'Source Sans Pro','Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-size: 14px;
+}
+
+.info-box__icon {
+    display: flex;
+    height: 90px;
+    width: 90px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 45px;
+    line-height: 90px;
+    background: rgba(0,0,0,0.2);
+
+}
+
+.info-box__content {
+    padding: 10px;
+    font-size: 14px;
+}
+
+.info-box__text {
+    font-weight: lighter;
+    margin-bottom: 5px;
+}
+
+.info-box__number {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.progress {
+    background: rgba(0,0,0,0.2);
+    height: 3px;
+}
+
+.progress__bar {
+    background-color: white;
+    height: 100%;
+}
+
+.progress_description {
+    position: relative;
+    top: 3px;
+    font-size: 12px ;
+}
+
+.info-box__number--big {
+    font-size: 38px;
+    margin-bottom: 10px;
+}
+
+.info-box__text--big {
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.info-box__icon--big {
+    font-size: 90px;
+    color: rgba(0,0,0,0.15);
+    background: rgba(0,0,0,0);
+    justify-content: flex-end;
+    width: 50%;
+    padding: 10px ;
+    margin-bottom: 10%;
+    transition: all .3s linear;
+}
+
+.info-box__icon--big:hover {
+    font-size: 100px;
+    transition: all .3s linear;
+}
+
+.info-box__link {
+    background: rgba(0, 0, 0, 0.1);
+    text-align: center;
+    color: rgba(255, 255, 255, 0.8);
+    padding: 3px 0;
+    text-decoration: none;
+    position: absolute;
+    width: 80%;
+    bottom: 0;
+}
+
+
+.info-box__link:hover {
+    color: #fff;
+    background: rgba(0,0,0,0.15);
+}
+
+
+
+.bg-aqua {
+    background-color: #00c0ef;
+    color: white;
+}
+
+.bg-green {
+    background-color: #00a65a;
+    color: white;
+}
+
+.bg-yellow {
+    background-color: #f39c12;
+    color: white;
+}
+
+.bg-red {
+    background-color: #dd4b39;
+    color: white;
+}
