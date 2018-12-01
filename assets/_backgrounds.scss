@@ -1,0 +1,24 @@
+.bg {
+  color: white;
+
+  &-aqua {
+    background-color: #00c0ef;
+    color: white;
+    @extend .bg;
+  }
+
+  &-green {
+    background-color: #00a65a;
+    @extend .bg;
+  }
+
+  &-yellow {
+    background-color: #f39c12;
+    @extend .bg;
+  }
+
+  &-red {
+    background-color: #dd4b39;
+    @extend .bg;
+  }
+}

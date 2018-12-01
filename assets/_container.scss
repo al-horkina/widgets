@@ -1,0 +1,12 @@
+.container {
+  @include flex();
+  background-color: $color-white;
+  padding: 1em;
+  margin-bottom: 10px;
+
+  &__item {
+    flex-basis: 25%;
+    position: relative;
+    padding: 0 10px;
+  }
+}

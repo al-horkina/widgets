@@ -1,0 +1,16 @@
+.progress {
+  background: rgba(0, 0, 0, 0.2);
+  height: 3px;
+
+  &__bar {
+    background-color: white;
+    height: 100%;
+  }
+
+  &_description {
+    position: relative;
+    top: 3px;
+    font-size: .8em;
+  }
+}
+
